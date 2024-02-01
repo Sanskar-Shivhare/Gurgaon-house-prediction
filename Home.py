@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.write("# :red[Real State App 🏠]")
 
-st.image('images\house.jpeg',width = 500)
+st.image('house.jpeg',width = 500)
 
 #st.sidebar.success("Select a demo above.")
 
