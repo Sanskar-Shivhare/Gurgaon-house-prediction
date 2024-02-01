@@ -9,3 +9,4 @@ category-encoders
 bz2file
 lzma
 pickle
+sklearn.tree
