@@ -23,7 +23,7 @@ with lzma.open(compressed_pipeline_file_path, 'rb') as file:
 
 
 st.title(':red[Price Predictor]')
-st.image('images\predictor.png',width=300)
+st.image('predictor.png',width=300)
 
 st.header(':blue[Enter your Inputs]')
 # property_type input
