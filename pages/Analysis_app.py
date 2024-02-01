@@ -11,7 +11,7 @@ st.set_page_config(page_title="Analytics",page_icon='📊')
 st.title(":red[Analytics Module] 📈📊")
 st.image('hari.png',width=300)
 
-df = pd.read_csv('datasets\data_viz1.csv')
+df = pd.read_csv('data_viz1.csv')
 
 group_df = df.groupby('sector')[['price','price_per_sqft','built_up_area','latitude','longitude']].mean()
 
