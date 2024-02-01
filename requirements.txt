@@ -7,3 +7,4 @@ seaborn
 scikit-learn
 category-encoders
 bz2file
+lzma
