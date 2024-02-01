@@ -9,7 +9,7 @@ base = 'dark'
 st.set_page_config(page_title="Analytics",page_icon='📊')
 
 st.title(":red[Analytics Module] 📈📊")
-st.image('images\hari.png',width=300)
+st.image('hari.png',width=300)
 
 df = pd.read_csv('datasets\data_viz1.csv')
 
